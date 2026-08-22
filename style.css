@@ -1,191 +1,162 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakia's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fff7fb;
-    color: #333;
-    line-height: 1.6;
-}
+<body>
 
-header {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #f8dce9;
-}
+   <header>
+    <img src="profile.jpg" alt="Foto profil Zakia">
+    <h1>Hi, I'm Zakia 👋🏻</h1>
+    <p>French Language and Literature Student at Universitas Brawijaya</p>
+    <p>Writer • Language Enthusiast • Creative Learner</p>
+</header>
+    <nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certificates">Certificates</a>
+<a href="#contact">Contact</a>
+</nav>
 
-header h1 {
-    font-size: 45px;
-    margin-bottom: 10px;
-}
+    <main>
+   <section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm Zakia, a French Language and Literature student at
+        Universitas Brawijaya. I have a strong interest in languages,
+        writing, and creative projects.
+    </p>
 
-header p {
-    font-size: 18px;
-}
+    <p>
+        I enjoy learning new things, exploring different perspectives,
+        and developing my skills through academic and personal projects.
+        I'm particularly interested in writing, translation, and
+        cross-cultural communication.
+    </p>
+</section>
+    
+    <section id="skills">
+    <h2>My Skills</h2>
 
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-}
+    <div class="skills-container">
+        <div class="skill">
+            <h3>✍🏻 Writing</h3>
+            <p>Essay writing, creative writing, and content writing.</p>
+        </div>
 
-section {
-    background-color: white;
-    margin-bottom: 25px;
-    padding: 30px;
-    border-radius: 15px;
-}
+        <div class="skill">
+            <h3>🌐 Languages</h3>
+            <p>Indonesian, English, and beginner-level French and Japanese.</p>
+        </div>
 
-h2 {
-    margin-bottom: 15px;
-}
+        <div class="skill">
+            <h3>💻 Microsoft Office</h3>
+            <p>Microsoft Word, PowerPoint, and basic Microsoft Excel.</p>
+        </div>
 
-ul {
-    padding-left: 20px;
-}
+        <div class="skill">
+            <h3>🎨 Creative Projects</h3>
+            <p>Creating content and developing personal web projects.</p>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
 
-footer {
-    text-align: center;
-    padding: 25px;
-    background-color: #f8dce9;
-}
-header img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-nav {
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-}
+    <div class="project">
+        <h3>🌐 Personal Portfolio Website</h3>
+        <p>
+            A personal portfolio website created using HTML and CSS
+            to showcase my profile, skills, projects, and certificates.
+        </p>
+    </div>
 
-nav a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
+     <div class="project">
+        <h3>🤖 The Impact of Artificial Intelligence on Education</h3>
+        <p>
+            An academic project exploring the impact of Artificial Intelligence
+            on education, including its benefits, challenges, and influence
+            on the learning experience.
+        </p>
 
-nav a:hover {
-    color: #d46a91;
-}
-.project {
-    background-color: #fff7fb;
-    padding: 20px;
-    margin-top: 15px;
-    border-radius: 12px;
-    border: 1px solid #f1d5e2;
-}
+        <a href="coruscating-sopapillas-00a664.netlify.app" target="_blank">
+            View Project →
+        </a>
+    </div>
 
-.project h3 {
-    margin-bottom: 8px;
-}
-footer h2 {
-    margin-bottom: 15px;
-}
+   <div class="project">
+    <h3>✍🏻 Writing & Creative Work</h3>
+    <p>
+        A collection of my academic and creative writing projects,
+        developed to improve my writing and communication skills.
+    </p>
 
-footer p {
-    margin-bottom: 8px;
-}
+    <a href="https://medium.com/@zakiamutiaayu" target="_blank">Medium →</a>
+    <a href="https://zakiamutiaayu.blogspot.com/" target="_blank">Blogger →</a>
+</div>
+</section>
+<section id="certificates">
+    <h2>Certificates</h2>
 
-footer a {
-    color: #d46a91;
-    text-decoration: none;
-    font-weight: bold;
-}
+    <div class="project">
+        <h3>🤖 Artificial Intelligence</h3>
+        <p>
+            Certificate from an Artificial Intelligence learning program.
+        </p>
+        <a href="sertifikat-ai.jpg" target="_blank">
+            View Certificate →
+        </a>
+    </div>
 
-footer a:hover {
-    text-decoration: underline;
-}
-nav a {
-    transition: 0.3s;
-}
+    <div class="project">
+        <h3>☁️ Membangun Aplikasi Gen AI dengan Microsoft Azure</h3>
+        <p>
+            Dicoding course focused on building Generative AI applications
+            using Microsoft Azure.
+        </p>
+        <a href="sertifikat-azure.pdf" target="_blank">
+            View Certificate →
+        </a>
+    </div>
 
-.project {
-    transition: 0.3s;
-}
+    <div class="project">
+        <h3>💻 Belajar Dasar Pemrograman Web</h3>
+        <p>
+            Dicoding course covering the fundamentals of web development.
+        </p>
+        <a href="sertifikat-web.pdf" target="_blank">
+            View Certificate →
+        </a>
+    </div>
+</section>
+<footer id="contact">
+    <h2>Let's Connect!</h2>
 
-.project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-.skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-}
+    <p>
+        I'm always open to connecting, sharing ideas,
+        and exploring new opportunities.
+    </p>
 
-.skill {
-    padding: 20px;
-    background-color: #fff7fb;
-    border: 1px solid #f1d5e2;
-    border-radius: 12px;
-    transition: 0.3s;
-}
+    <p>
+        📧 Email:
+        <a href="mailto:zaskiamutiaayu@gmail.com">
+            zaskiamutiaayu@gmail.com
+        </a>
+    </p>
 
-.skill:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
+    <p>
+        💼 LinkedIn:
+        <a href="https://www.linkedin.com/in/zakia-mutia-ayu-a0519a341" target="_blank">
+            View My LinkedIn →
+        </a>
+    </p>
 
-.skill h3 {
-    margin-bottom: 8px;
-}
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 32px;
-    }
-
-    nav {
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    nav a {
-        margin: 0 5px;
-    }
-
-    .skills-container {
-        grid-template-columns: 1fr;
-    }
-
-    main {
-        padding: 25px 15px;
-    }
-
-    section {
-        padding: 20px;
-    }
-}
-.project a {
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 15px;
-    color: #d46a91;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.project a:hover {
-    color: #a83f68;
-    text-decoration: underline;
-}
-
-.project h3 {
-    color: #8f3d64;
-}
-
-h2 {
-    color: #b04b7a;
-}
-
-section {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-}
+    <p>© 2026 Zakia Mutia Ayu</p>
+</footer>
+</body>
+</html>
